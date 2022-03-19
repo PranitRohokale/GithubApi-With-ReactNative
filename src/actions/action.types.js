@@ -1,0 +1,3 @@
+export const ADD_SEASON = 'ADD_SEASON'
+export const MARK_AS_WATCHED = 'MARK_AS_WATCHED'
+export const REMOVE_SEASON = 'REMOVE_SEASON'
