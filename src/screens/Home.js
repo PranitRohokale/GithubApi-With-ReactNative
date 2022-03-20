@@ -90,6 +90,13 @@ const mapDispatchToProps = {
   markSeason: id => markSeason(id),
 };
 
+//to make sure redux props are coming
+Home.propType = {
+  removeSeason : propTypes.func.isRequired,
+  markSeason : propTypes.func.isRequired,
+  listState : propTypes.array.isRequired
+}
+
 //TODO: Redux export
 export default connect(mapStateToProps,mapDispatchToProps)(Home)
 

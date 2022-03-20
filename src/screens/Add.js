@@ -84,6 +84,10 @@ const mapDispatchToProps = {
   addSeason: data => addSeason(data),
 };
 
+Add.prototype = {
+  addSeason: propTypes.func.isRequired,
+};
+
 //TODO: Redux Export
 export default connect(null, mapDispatchToProps)(Add);
 
